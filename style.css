@@ -30,4 +30,6 @@ body {
     margin-top:25px;
     height:100px;
 }
-  
+.recipe-image {
+border:solid blue 5px;
+}
