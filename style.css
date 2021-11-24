@@ -10,19 +10,52 @@ body {
   background-color:lightgray;
 }
 
-
 .header-text {
+  color:lightgray;
+}
+.header-text2 {
   color:lightgray;
 }
 
 .header { 
-  background-color: blue;
-  height:100px;
+  background-color:black;
+  height: 75px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.recipe-image {
-border:solid blue 5px;
+.left {
+  display: flex;
+  margin-left: 30px;
+}
+
+.right {
+  display: flex;
+}
+
+ul {
+  margin-right: 30px;
+  display: flex;
+  gap: 12px;
+  color: white;
+  list-style: none;
+}
+
+.container1 {
+  height: 250px;
+  background-color: red;
+}
+
+.container2 {
+  height: 250px;
+  background-color:blue;
+}
+.container3 {
+  height: 250px;
+  background-color:orange;
+}
+.container4 {
+  height: 250px;
+  background-color:green;
 }
