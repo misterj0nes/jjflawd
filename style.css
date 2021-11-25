@@ -6,32 +6,38 @@
   font-family: sans-serif;
 }
 body {
-  
+  display: flex;
+  flex-direction: column;
   background-color:lightgray;
 }
 
 .header-text {
-  color:lightgray;
+  color:white;
+  font-size:24px;
 }
 .header-text2 {
-  color:lightgray;
+  color:white;
+  font-size: 24px;
 }
 
 .header { 
-  background-color:black;
-  height: 75px;
+  background-color: #1f2937;
+  height: 100px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 .left {
   display: flex;
   margin-left: 30px;
+  margin-top: 18px;
+
 }
 
 .right {
   display: flex;
+  margin-top:18px;
 }
 
 ul {
@@ -43,19 +49,133 @@ ul {
 }
 
 .container1 {
-  height: 250px;
-  background-color: red;
+  height: auto;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
 }
 
 .container2 {
-  height: 250px;
-  background-color:blue;
+  height: auto;
+  background-color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:36px;
+  padding-top:32px;
+  padding-bottom: 90px;
 }
 .container3 {
-  height: 250px;
-  background-color:orange;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
 }
 .container4 {
-  height: 250px;
-  background-color:green;
+  height: 325px;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left1 {
+  color:white;
+  width: 300px;
+  height: 200px;
+  margin: 0px 24px;
+  
+}
+.right1 {
+  width:300px; 
+  height: 200px;
+  margin: 0px 24px; 
+}
+
+.left1 button {
+ background-color:#3882F6;
+ padding:6px 18px;
+ border-radius:8px;
+ font-weight: bold;
+ color:white;
+ margin-top:8px;
+}
+.container1 img {
+  background-color:gray;
+  color: white;
+  text-align: center;
+  padding: 95px 10px;
+}
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+.left p {
+  font-size: 18px;
+  color:#e5e7eb;
+}
+
+.profile {
+  width: 125px;
+}
+.profile img {
+  display: block;
+  width: 125px;
+  height: 125px;
+  border:solid #3882F6 2px;
+  border-radius: 8px;
+  color:#3882F6;
+  padding: 55px 20px;
+}
+.profile p {
+  margin-top: 4px;
+  color:darkgray;
+  font-size: 12px;
+  text-align: center;
+}
+
+.solotext {
+  background-color: white;
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.quote {
+  width: 350px;
+}
+
+.quote p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote .two {
+text-align: end;
+}
+
+.callbox {
+  width: 600px;
+  border-radius: 10px;
+  background-color: #3882F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 40px;
+}
+.callbox .right2 button {
+  background-color: #3882F6;
+  border: solid white 2px; 
+  border-radius: 5px;
+  color: white;
+  padding: 2px 15px;
 }
